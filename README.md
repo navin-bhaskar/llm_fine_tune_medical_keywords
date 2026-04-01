@@ -11,7 +11,15 @@ The model is a fine-tuned Llama-3.2-3B model for extracting medical keywords fro
 ## Deployment
 The model is deployed on Modal for easy access and use.
 
-## Usage (TODO)
+## Finetuning on Google colab (with weights and biases monitoring)
+https://colab.research.google.com/drive/1iWYxi9eMCCu6VC6LR1OcUToyiyKkyiF3?usp=sharing
+
+## Usage
+To test the model, update the HF_USER_NAME to your HF user name in `modal_demo.py` and then deploy the app using the modal CLI.
 ```bash
-modal run modal_demo.py
+modal deploy modal_demo.py
 ```
+Note: This will still use my finetuned HF model.
+Demo: https://navin-bhaskar-5--gradio-app-ui.modal.run
+
+

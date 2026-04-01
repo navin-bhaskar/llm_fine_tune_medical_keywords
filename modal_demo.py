@@ -12,7 +12,6 @@ PROJECT_NAME = "medical_keywords"
 HF_USER_NAME = "navinbhaskar"
 
 
-DATA_USER = "navinbhaskar"
 DATA_SET_USER_NAME = "navinbhaskar"
 DATASET_NAME = f"{DATA_SET_USER_NAME}/medical_keywords_dataset"
 
