@@ -1,7 +1,7 @@
 ## Introduction
 This project is a fine-tuned model for extracting medical keywords from symptoms and patient details.
 This project mainly is for getting my hands dirty with LLM fine-tuning and deploying it on cloud using Modal.
-The notebook used to analyze data can be found here: [train_medical_keywords.ipynb](train_medical_keywords.ipynb)
+The notebook used to analyze data can be found here: [train_medical_keyword.ipynb](train_medical_keyword.ipynb)
 
 ## Dataset
 The dataset is a synthetic dataset of 100k medical keywords extracted from symptoms and patient details.
